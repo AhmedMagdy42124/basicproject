@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.back-video{
+    background-size:cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.continer{
+    display: flex;
+    background-color: rgba(27, 164, 144, 0.8);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contant{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 70%; 
+    height: 100vh; 
+    margin-left: -450px;
+    margin-right: 150px;
+    transform: skew(-10deg);
+}
+.contant h1{
+    margin-left: 250px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    transform: skew(10deg);
+}
+.contant p{
+    margin-left: 280px;
+    margin-bottom: 50px;
+    transform: skew(10deg);
+}
+.contant form{
+    width: 50%;
+    margin-left: 300px;
+    transform: skew(10deg);
+}
+.social-icons{
+    justify-content: right;
+}
+.social-icons a{
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 0;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
